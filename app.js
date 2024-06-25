@@ -13,7 +13,7 @@ function renderTemp(){
             event.preventDefault()
             
             axios(
-                `http://api.weatherapi.com/v1/current.json?key=6cd5964c94ec44fea7395501241806&q=${city.value}&aqi=no`
+                `https://api.weatherapi.com/v1/current.json?key=6cd5964c94ec44fea7395501241806&q=${city.value}&aqi=no`
             )
             
             .then((res)=>{
